@@ -74,76 +74,48 @@
             </div>
         </div>
 
+        <!-- SLIDESHOW -------------------------------------------->
         <div id="slideshow" style="background-color: #F6F2EF; padding-bottom: 5vh;">
             <div class="container-fluid" style="height:auto;">
-                <!-- Slideshow container -->
 
-                <!-- Full-width images with number and caption text -->
                 <div class="mySlides">
                     <div class=" text col-12">1 / 3</div>
-                    <img src="chatbots.png" style="width:100%;">
-                    <div class="text">Our chatbots are designed to give you company during your isolation</div>
-                </div>
-
-                <div class="mySlides">
-                    <div class=" text col-12">2 / 3</div>
                     <figure>
-                        <a href="game.html">
-                            <img src="game.png" alt="Smiley Face" style="width:100%">
+                        <a href="chatbots.html">
+                            <img src="chatbots.png" alt="Smiley Face" style="width:100%">
                         </a>
-                        <figcaption class="text">Our game!</figcaption>
+                        <figcaption class="text">Our chatbots are designed to give you company during your isolation!</figcaption>
                     </figure>
-                </div>
 
-                <div class="mySlides">
-                    <div class=" text col-12">3 / 3</div>
-                    <img src="team.png" style="width:100%">
-                    <div class="text">Meet the 4 team members working on this project!</div>
-                </div>
+                    <div class="mySlides">
+                        <div class=" text col-12">2 / 3</div>
+                        <figure>
+                            <a href="game.html">
+                                <img src="game.png" alt="Smiley Face" style="width:100%">
+                            </a>
+                            <figcaption class="text">Our game!</figcaption>
+                        </figure>
+                    </div>
 
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
+                    <div class="mySlides">
+                        <div class=" text col-12">3 / 3</div>
+                        <figure>
+                            <a href="ourteam.html">
+                                <img src="team.png" alt="Smiley Face" style="width:100%">
+                            </a>
+                        </figure>
 
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
 
-            <script>
-                var slideIndex = 1;
-                showSlides(slideIndex);
+                        <!-- BUTTONS ----------------------------------------->
+                        <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
 
-                // Next/previous controls
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
 
-                // Thumbnail image controls
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
 
-                function showSlides(n) {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = slides.length
-                    }
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
-                }
-            </script>
+                    <script src="website.js"></script>
