@@ -4,17 +4,24 @@
 /* Text inside these asterisks and slashes are comments for human */
 
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: serif;
+    background-color: #dcccc0;
+}
+
+html,
+p,
+body,
+h1 {
+    font-family: serif;
 }
 
 p {
-    font-weight: bold;
     color: grey;
     font-size: 1.7vmax;
 }
 
 .intro {
-    background-color: seashell;
+    background-color: #dcccc0;
     border: darkblue;
     padding-top: 7vh;
     padding-bottom: 7vh;
@@ -48,10 +55,11 @@ button:hover {
 }
 
 .nav-button {
-    background-color: #C0E3FF;
+    background-color: #898078;
     margin: 1.5vw 1.5vw 0vw 1.5vw;
-    font-size: 1.4vmax;
-    color: black;
+    font-size: 1.6vmax;
+    color: whitesmoke;
+    font-weight: lighter;
 }
 
 .fa-bars {
@@ -59,7 +67,7 @@ button:hover {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #dcccc0;
     /* set the background color here */
     color: black;
     /* set the text color to black here */
@@ -90,7 +98,7 @@ a:hover {
     display: none;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 40%;
 }
 
 
@@ -100,7 +108,8 @@ a:hover {
 .next {
     cursor: pointer;
     position: absolute;
-    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -124,29 +133,17 @@ a:hover {
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30%;
 }
 
 
 /* Caption text */
 
 .text {
-    color: #f2f2f2;
+    color: black;
     font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
     text-align: center;
-}
-
-
-/* Number text (1/3 etc) */
-
-.text {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+    padding: 3vh;
 }
 
 

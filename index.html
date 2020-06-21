@@ -8,6 +8,7 @@
     <title>DefHacks 2020</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
@@ -16,7 +17,7 @@
     <body>
 
         <!-- NAVIGATION MENU ------------------------------------------------------->
-        <header id="navigation-bar">
+        <header id="navigation-bar" style=" background-color: #F6F2EF;">
             <nav class="navbar navbar-expand-sm my-nav">
                 <a class="navbar-brand" href="#" style="margin: 1vmin 1vmin">
                     <img src="image1.png" alt="DefHacks 2020" style="height:5vmax; width:5vmax; margin-right: 2vmax">
@@ -44,49 +45,59 @@
 
         <div id="info ">
 
-            <div class="container-fluid " style="height:auto; padding-top:2vh; padding-bottom: 2vh; background-color: #002B76; ">
+            <div class="container-fluid " style="height:auto; padding-top:2vh; padding-bottom: 2vh; background-color: #545454; ">
                 <div class=" row ">
                     <div class="col-12" style="height:auto; text-align:left; ">
-                        <h1 style="font-size: 4.5vmax; color: white;">Our Response to COVID-19</h1>
+                        <h1 style="font-size: 4.5vmax; color: white; font-family: Abril-Fatface">OUR RESPONSE TO COVID-19</h1>
                     </div>
 
                 </div>
             </div>
 
-            <div class="container-fluid intro " style="height: auto; ">
-                <p style="margin: 0vh 15vh 0vh 15vh; text-align: center ; " id="info-text ">The COVID-19 Pandemic has shaken the world. People have been stuck in quarantine for months. The pandemic has brought great adversity in many forms, whether it be mental health struggles in isolation or stock market crashes threatening
-                    to cause economic recessions. The goal of our project, [smiley face], is to be able to support those suffering with these issues through this time.
-                </p>
-            </div>
+            <!-- INTRO BLOCK ------------------------------------------->
+            <div id="who-we-are" style="height:auto">
 
+                <div class="container-fluid who-we-are" style="height:auto">
+
+                    <div class="row">
+
+                        <div class="col-12 intro" style="height:auto; padding-bottom:8vh; padding-top: 4vh">
+
+                            <h1 style="font-size: 3vmax; text-align: center; color: #545454; font-weight: bold;"> - Our Purpose - </h1>
+                            <p style="font-size: 2vmax; margin-right: 20vh; margin-left: 20vh;"> The COVID-19 Pandemic has shaken the world. People have been stuck in quarantine for months. The pandemic has brought great adversity in many forms, whether it be mental health struggles in isolation or stock market crashes
+                                threatening to cause economic recessions. The goal of our project, [smiley face], is to be able to support those suffering with these issues through this time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div id="slideshow">
+        <div id="slideshow" style="background-color: #F6F2EF; padding-bottom: 5vh;">
             <div class="container-fluid" style="height:auto;">
                 <!-- Slideshow container -->
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides">
-                    <div class=" row text col-12">1 / 3</div>
-                    <img src="image1.png" style="width:100%;">
-                    <div class="text">Caption Text</div>
+                    <div class=" text col-12">1 / 3</div>
+                    <img src="chatbots.png" style="width:100%;">
+                    <div class="text">Our chatbots are designed to give you company during your isolation</div>
                 </div>
 
                 <div class="mySlides">
-                    <div class="row text col-12">2 / 3</div>
-                    <a href="game.html">
-                        <figure>
-                            <img src="image1.png" alt="Smiley Face" style="width:100%">
-                            <figcaption>Our game!</figcaption>
-                        </figure>
-                    </a>
-                    <div class="text">Caption Two</div>
+                    <div class=" text col-12">2 / 3</div>
+                    <figure>
+                        <a href="game.html">
+                            <img src="game.png" alt="Smiley Face" style="width:100%">
+                        </a>
+                        <figcaption class="text">Our game!</figcaption>
+                    </figure>
                 </div>
 
                 <div class="mySlides">
-                    <div class="row text col-12">3 / 3</div>
-                    <img src="image1.png" style="width:100%">
-                    <div class="text">Caption Three</div>
+                    <div class=" text col-12">3 / 3</div>
+                    <img src="team.png" style="width:100%">
+                    <div class="text">Meet the 4 team members working on this project!</div>
                 </div>
 
                 <!-- Next and previous buttons -->
