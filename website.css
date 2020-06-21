@@ -97,9 +97,9 @@ a:hover {
 }
 
 
-/* Next & previous buttons */
+/* Next & backious buttons */
 
-.prev,
+.back,
 .next {
     cursor: pointer;
     position: absolute;
@@ -125,7 +125,7 @@ a:hover {
 
 /* On hover, add a black background color with a little bit see-through */
 
-.prev:hover,
+.back:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 30%;
