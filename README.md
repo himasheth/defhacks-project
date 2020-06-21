@@ -1,2 +1,2 @@
 # defhacks-project
-## Project for DefHacks 2020 
+Project for DefHacks 2020 
