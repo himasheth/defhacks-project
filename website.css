@@ -8,16 +8,11 @@ html {
     background-color: #dcccc0;
 }
 
-html,
-p,
-body,
-h1 {
-    font-family: serif;
-}
-
 p {
     color: grey;
     font-size: 1.7vmax;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .intro {
